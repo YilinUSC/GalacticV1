@@ -7,7 +7,7 @@ public class EnemyNumber : MonoBehaviour
 {
     //public GameObject FloatingTextPrefab;
     public TextMeshPro textnumber;
-    public int number;
+    public int number = 0;
     
     // Start is called before the first frame update
     void Start()

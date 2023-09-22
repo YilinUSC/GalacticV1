@@ -80,6 +80,7 @@ public class DamageHandler : MonoBehaviour
 
         if (health <= 0)
         {
+ 
             Die();
         }
     }
