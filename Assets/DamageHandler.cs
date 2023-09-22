@@ -31,6 +31,12 @@ public class DamageHandler : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D col)
     {
+		if (col.gameObject.tag == "Enemy")
+    	{
+        	// Player collided with an enemy. Deduct health or call Die() method.
+        	TakeDamage();  
+    	}
+
         if (col.gameObject.tag == "Bullet")
         {
             if (gameObject.tag == "Enemy")

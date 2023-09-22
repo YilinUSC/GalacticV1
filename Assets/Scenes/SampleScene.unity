@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 783954256}
+  enemiesPerSpawn: 3
 --- !u!4 &60346749
 Transform:
   m_ObjectHideFlags: 0
